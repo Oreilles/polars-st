@@ -23,6 +23,7 @@ jobs:
       - uses: astral-sh/setup-uv@v3
         with:
           version: "latest"
+          enable-cache: true
       - name: Install dependencies
         run: uv sync --dev
       - name: Build docs
