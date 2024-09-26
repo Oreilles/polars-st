@@ -27,4 +27,4 @@ jobs:
       - name: Install dependencies
         run: uv sync --dev
       - name: Build docs
-        run: cd docs && mkdocs build
+        run: cd docs && uv run mkdocs build
