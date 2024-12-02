@@ -1,6 +1,6 @@
 [package]
 name = "polars-st"
-version = "0.1.0-alpha.10"
+version = "0.1.0-alpha.11"
 edition = "2021"
 license = "LGPL-2.1"
 categories = ["science::geo"]
